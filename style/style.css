@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(206, 12%, 95%);
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  padding-top: 25px;
+  text-align: center;
+}
+
+form {
+  padding: 225px;
+  text-align: center;
+}
+
+#text {
+  box-sizing: border-box;
+  width: 360px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+  outline: 0;
+  padding: 18px 18px;
+}
+
+#submit {
+  background-color: dodgerblue;
+  text-align: center;
+  color: white;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  padding: 18px 18px;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#MessageBox {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
